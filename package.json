@@ -24,10 +24,13 @@
     "workshopper-adventure": "~3.4.5",
     "workshopper-boilerplate": "~1.1.0",
     "workshopper-exercise": "~2.3.0",
-    "workshopper-wrappedexec": "~0.1.2"
+    "workshopper-wrappedexec": "~0.1.2",
+    "snyk": "^1.47.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -45,5 +48,6 @@
     "learn",
     "tutorial",
     "workshopper"
-  ]
+  ],
+  "snyk": true
 }
