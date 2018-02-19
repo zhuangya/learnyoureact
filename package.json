@@ -5,7 +5,7 @@
   "main": "learnyoureact.js",
   "bin": "./learnyoureact.js",
   "dependencies": {
-    "babel": "^5.8.23",
+    "babel": "^6.0.0",
     "babelify": "~7.2.0",
     "babel-preset-react": "~6.1.18",
     "babel-preset-es2015": "~6.1.18",
@@ -14,7 +14,7 @@
     "browserify": "~10.1.3",
     "colors-tmpl": "~1.0.0",
     "express": "~4.12.3",
-    "express-react-views": "~0.9.0",
+    "express-react-views": "~0.10.0",
     "hyperquest": "~1.2.0",
     "js-beautify": "^1.5.10",
     "react": "~0.14.0",
